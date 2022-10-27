@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: -o-linear-gradient() ,url(image.png);
+}
+.navbar{
+    width: 85%;
+    margin:auto ;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+    text-transform: lowercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: rgb(64, 141, 208);
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+
+}
